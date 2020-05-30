@@ -9,3 +9,9 @@ export const removeTodo = text => ({
     type: REMOVE_TODO,
     payload: { text }
 });
+
+export const COMPLETED = 'COMPLETED';
+export const markCompleted = text => ({
+    type: COMPLETED,
+    payload: { text }
+});
